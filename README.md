@@ -38,8 +38,9 @@
 > Please do **not** 问一个问题，一般问题。问题只报告错误，要求改进或要求新功能。对于一般的问题和讨论，用
   [Angular Material Forum](https://groups.google.com/forum/#!forum/ngmaterial).
 
-It is important to note that for each release, the [ChangeLog](CHANGELOG.md) is a resource that will
-itemize all:
+重要的是要注意，每一个版本， [ChangeLog](CHANGELOG.md) 是一种资源
+
+列出所有：
 
 - Bug Fixes
 - New Features
@@ -51,7 +52,7 @@ itemize all:
 
 * [Builds - Under the Hood](docs/guides/BUILD.md)
 
-First install or update your local project's **npm** tools:
+首先安装或更新您的本地项目s **npm** 工具:
 
 ```bash
 # First install all the NPM tools:
@@ -71,17 +72,18 @@ gulp build
 gulp docs
 ```
 
-For more details on how the build process works and additional commands (available for testing and
-debugging) developers should read the [Build Instructions](docs/guides/BUILD.md).
+有关如何构建进程工作和其他命令的详细信息（可供测试和
+
+调试）开发人员应该读 [Build Instructions](docs/guides/BUILD.md).
 
 ## <a name="installing"></a> Installing Build (Distribution Files)
 
 #### Bower
 
-For developers not interested in building the Angular Material library... use **bower** to install
-and use the Angular Material distribution files.
+对于开发商不感兴趣的建筑的角度材料库…使用**bower** 安装
+并使用角材分布文件
 
-Change to your project's root directory.
+更改为您的项目的根目录
 
 ```bash
 # To get the latest stable version, use Bower from the command line.
@@ -91,41 +93,41 @@ bower install angular-material
 bower install angular-material#master
 ```
 
-Visit [Bower-Material](https://github.com/angular/bower-material/blob/master/README.md) for more
-details on how to install and use the Angular Material distribution files within your own local
-project.
+访问 [Bower-Material](https://github.com/angular/bower-material/blob/master/README.md) 为了更多
+
+关于如何安装和使用本地的角材分布文件的详细信息
+
+项目。
 
 #### CDN
 
-CDN versions of Angular Material are now available at
+角材料CDN版本现在是可利用的在
 [Google Hosted Libraries](https://developers.google.com/speed/libraries/#angular-material).
 
-With the Google CDN, you will not need to download local copies of the distribution files. Instead
-simply reference the CDN urls to easily use those remote library files. This is especially useful
-when using online tools such as [CodePen](http://codepen.io/), [Plunkr](http://plnkr.co/), or
+随着谷歌CDN，你不会需要下载分发文件的本地副本。而不是简单地引用CDN网址，方便地使用这些远程库文件。使用在线工具如时，这是特别有用 [CodePen](http://codepen.io/), [Plunkr](http://plnkr.co/), or
 [JSFiddle](http://jsfiddle.net/).
 
 ```html
   <head>
 
-    <!-- Angular Material CSS now available via Google CDN; version 0.11.2 used here -->
+    <!-- 通过谷歌CDN现在角材料CSS可用;版本0.11.2这里使用(已处理中国正常使用) -->
     <link rel="stylesheet" href="https://ajax.c2cmalls.com/ajax/libs/angular_material/0.11.2/angular-material.min.css">
 
   </head>
   <body>
 
-    <!-- Angular Material Dependencies -->
+    <!--角材料主题脚本(已处理中国正常使用)-->
     <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
     <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
     <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
 
 
-    <!-- Angular Material Javascript now available via Google CDN; version 0.11.2 used here -->
+    <!-- 角材料JavaScript现在可以通过谷歌的CDN；版本0.11.2用在这里(已处理中国正常使用) -->
     <script src="https://ajax.c2cmalls.com/ajax/libs/angular_material/0.11.2/angular-material.min.js"></script>
   </body>
 ```
 
-> Note that the above sample references the 0.10.0 CDN release. Your version will change based on the latest stable release version.
+>注意，上面的示例引用0.10.0 CDN释放。您的版本将基于最新的稳定版本版本.
 
 Developers seeking the latest, most-current build versions can use [GitCDN.link](//gitcdn.link) to
 pull directly from the distribution GitHub
@@ -141,9 +143,9 @@ pull directly from the distribution GitHub
   <body>
 
     <!-- Angular Material Dependencies -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular-animate.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular-aria.js"></script>
 
     <!-- Angular Material Javascript using GitCDN to load directly from `bower-material/master` -->
     <script src="https://gitcdn.link/repo/angular/bower-material/master/angular-material.js"></script>
