@@ -1,47 +1,41 @@
-# Material Design for AngularJS Apps [![Build Status](https://travis-ci.org/angular/material.svg)](https://travis-ci.org/angular/material)
+# 材料设计AngularJS Apps [![Build Status](https://travis-ci.org/angular/material.svg)](https://travis-ci.org/angular/material)
 
-[Material Design](https://www.google.com/design/spec/material-design/) is a specification for a
-unified system of visual, motion, and interaction design that adapts across different devices. Our
-goal is to deliver a lean, lightweight set of AngularJS-native UI elements that implement the
-material design specification for use in Angular single-page applications (SPAs).
+[Material Design](https://www.google.com/design/spec/material-design/) 为视觉，运动和交互设计统一的系统，该系统在不同的装置适应的规范。我们的目标是提供一个精简，轻巧组实现对角单页的应用程序（水疗）使用的材料设计规范AngularJS原生的UI元素.
 
 ![venn diagram](https://cloud.githubusercontent.com/assets/210413/5077572/30dfc2f0-6e6a-11e4-9723-07c918128f4f.png)
 
-For developers using AngularJS, Angular Material is the reference implementation of Google's Material Design Specification. This project implements version 1.x of Angular Material and includes a rich set of reusable, well-tested, and accessible UI components.
+对于使用AngularJS开发，角材料是谷歌的材料设计规范的参考实现。该项目实现了角材料1.x版本，其中包括一组丰富的可重复使用的，经过充分测试的和可访问的UI组件。
 
-Quick Links:
+快速链接:
 
-*  [API & Demos](#demos)
-*  [Contributing](#contributing)
-*  [Building](#building)
-*  [Installing](#installing)
+*  [API & Demos](#demos)==[API和演示（#演示）
+*  [Contributing](#contributing)==[投稿]（#贡献的）
+*  [Building](#building)==[建筑]（#楼）
+*  [Installing](#installing)==[安装]（＃安装）
 
 
-Please note that using Angular Material requires the use of **Angular 1.3.x** or higher. Angular
-Material is targeted for all browsers with versions n-1; where n is the current browser version.
+请注意，使用角材料需要使用的 **Angular 1.3.x** 或更高。角材料是针对所有的浏览器版本与N-1;其中n是当前的浏览器版本。
 
-## <a name="demos"></a> Online Documentation (and Demos)
+## <a name="demos"></a> 在线文档（和演示）
 
 <div style="border: 1px solid #ccc">
   <img src="https://cloud.githubusercontent.com/assets/11819543/10056006/4aee3b68-6207-11e5-8497-a0656f85902a.PNG" alt="Angular Material docs website" style="display:block;">
 </div>
 
-- Visit [Material.AngularJS.org](https://material.angularjs.org/) online to review the API, see the
-  components in action with live Demos, and study the Layout system.
-- Or you can build the documentation and demos locally; see
-  [Build Docs & Demos](https://github.com/angular/material/tree/master/docs/README.md) for details.
+- 访问 [Material.AngularJS.org](https://material.angularjs.org/)网上审查API，看到现场演示动作成分，并研究布局系统。
+- 或者，你可以建立本地的文档和演示;看到
+  [Build Docs & Demos](https://github.com/angular/material/tree/master/docs/README.md) 细节。
 
-## <a name="contributing"></a> Contributing
+## <a name="contributing"></a> 特约
 
-Developers interested in contributing should read the following guidelines:
+感兴趣的开发者应该阅读以下指南:
 
-- [Issue Guidelines](CONTRIBUTING.md#submit)
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [Coding Guidelines](docs/guides/CODING.md)
+- [Issue Guidelines](CONTRIBUTING.md#submit)==[发出指引]（CONTRIBUTING.md＃提交）
+- [Contributing Guidelines](CONTRIBUTING.md)==[投稿指南]（CONTRIBUTING.md）
+- [Coding Guidelines](docs/guides/CODING.md)==[编码指南]（文档/指南/ CODING.md）
 - [ChangeLog](CHANGELOG.md)
 
-> Please do **not** ask general questions in an issue. Issues are only to report bugs, request
-  enhancements, or request new features. For general questions and discussions, use the
+> Please do **not** 问一个问题，一般问题。问题只报告错误，要求改进或要求新功能。对于一般的问题和讨论，用
   [Angular Material Forum](https://groups.google.com/forum/#!forum/ngmaterial).
 
 It is important to note that for each release, the [ChangeLog](CHANGELOG.md) is a resource that will
@@ -53,7 +47,7 @@ itemize all:
 
 ## <a name="building"></a> Building
 
-Developers can easily build Angular Material using NPM and gulp.
+开发人员可以使用NPM和吞咽轻松构建角料。
 
 * [Builds - Under the Hood](docs/guides/BUILD.md)
 
@@ -115,19 +109,19 @@ when using online tools such as [CodePen](http://codepen.io/), [Plunkr](http://p
   <head>
 
     <!-- Angular Material CSS now available via Google CDN; version 0.11.2 used here -->
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.2/angular-material.min.css">
+    <link rel="stylesheet" href="https://ajax.c2cmalls.com/ajax/libs/angular_material/0.11.2/angular-material.min.css">
 
   </head>
   <body>
 
     <!-- Angular Material Dependencies -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
 
 
     <!-- Angular Material Javascript now available via Google CDN; version 0.11.2 used here -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.2/angular-material.min.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angular_material/0.11.2/angular-material.min.js"></script>
   </body>
 ```
 
