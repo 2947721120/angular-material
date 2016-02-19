@@ -141,9 +141,9 @@ pull directly from the distribution GitHub
   <body>
 
     <!-- Angular Material Dependencies -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular-animate.js"></script>
+    <script src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.3.15/angular-aria.js"></script>
 
     <!-- Angular Material Javascript using GitCDN to load directly from `bower-material/master` -->
     <script src="https://gitcdn.link/repo/angular/bower-material/master/angular-material.js"></script>
